@@ -1,0 +1,27 @@
+{
+  "name": "share-a-picture",
+  "version": "0.0.1",
+  "description": "A backend for the Share-A-Picture Service",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@version.aalto.fi:CS-E4100/mcc-2017-g14.git"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.4.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}

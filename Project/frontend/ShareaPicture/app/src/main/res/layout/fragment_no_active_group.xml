@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    tools:context="fi.aalto.narcolepticninjas.shareapicture.NoActiveGroupFragment" tools:layout_editor_absoluteY="97dp"
+    tools:layout_editor_absoluteX="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/mangage_no_group_title"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/options_container"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <GridLayout
+        android:id="@+id/options_container"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:useDefaultMargins="true"
+        android:columnCount="2"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginTop="32dp"
+            android:clickable="true"
+            android:onClick="doCreateGroup"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/btn_create_group"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:adjustViewBounds="true"
+                android:tint="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_group_add_black_24dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:drawableTint="@color/colorPrimary"
+                android:text="@string/label_create_group"
+                android:textAppearance="@android:style/TextAppearance.Material.Title"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:layout_marginTop="32dp"
+            android:clickable="true"
+            android:onClick="doJoinGroup"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/btn_join_group"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:adjustViewBounds="true"
+                android:tint="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_group_black_24dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:drawableTint="@color/colorPrimary"
+                android:text="@string/label_join_group"
+                android:textAppearance="@android:style/TextAppearance.Material.Title"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

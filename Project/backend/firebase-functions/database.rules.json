@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "group_members": {
+      "$gid": {
+        ".read": "root.child('group_members/'+$gid+'/'+auth.uid).exists()",
+        ".write": false
+      }
+    },
+    "groups": {
+      "$gid": {
+        ".read": "root.child('group_members/'+$gid+'/'+auth.uid).exists()",
+        ".write": false
+      }
+    },
+    "images": {
+      "$gid": {
+        ".read": "root.child('group_members/'+$gid+'/'+auth.uid).exists()",
+        ".write": "root.child('group_members/'+$gid+'/'+auth.uid).exists()"
+      }
+    },
+    "tokens": {
+      "$gid": {
+        ".read": "root.child('group_members/'+$gid+'/'+auth.uid).exists()",
+        ".write": false
+      }
+    },
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": false
+      }
+    }
+  }
+}

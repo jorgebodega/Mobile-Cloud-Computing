@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Share a Picture</string>
+    <string name="label_sign_in_required">Sign In Required</string>
+    <string name="label_sign_in_required_explanation">You need to sign in before using the application.</string>
+    <string name="label_sign_in_error">Sign In Failed</string>
+    <string name="label_sign_in_error_network">Network connection is required to Sign In. Connect your device and click
+        Sign In to retry.
+    </string>
+    <string name="label_sign_in_error_unknown">An error occurred while signing in. Please try again by clicking the
+        button below.
+    </string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- App General settings -->
+
+    <string name="pref_title_wifi_settings">Wifi Data Settings</string>
+    <string-array name="pref_wifi_settings_list_titles">
+        <item>Low 640x480</item>
+        <item>High 1280x960</item>
+        <item>Original size</item>
+    </string-array>
+    <string-array name="pref_wifi_settings_list_values">
+        <item>low</item>
+        <item>high</item>
+        <item>original</item>
+    </string-array>
+
+    <!-- Ari: Possible unnecessary repeat of values and their titles -->
+    <string name="pref_title_mobile_settings">Mobile Data Settings</string>
+    <string-array name="pref_mobile_settings_list_titles">
+        <item>Low 640x480</item>
+        <item>High 1280x960</item>
+        <item>Original size</item>
+    </string-array>
+    <string-array name="pref_mobile_settings_list_values">
+        <item>low</item>
+        <item>high</item>
+        <item>original</item>
+    </string-array>
+
+
+    <!-- Example General settings -->
+
+
+    //
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="label_act_manage_groups">Group Management</string>
+    <string name="label_act_create_group">Create Group</string>
+    <string name="create_group_name_hint">Group Name</string>
+    <string name="menu_save">Save</string>
+    <string name="create_group_expiry_date_hint">Expiry Date</string>
+    <string name="create_group_expiry_time_hint">Expiry Time</string>
+    <string name="create_group_error_expiry_in_past">Expiry must be in the future!</string>
+    <string name="toast_generic_error">Oops, something went wrong. Try again later</string>
+    <string name="create_group_success">Group Created</string>
+    <string name="create_group_start_notice">Creating a group…</string>
+    <string name="create_group_error_name_missing">Group must have a name!</string>
+    <string name="join_group_success">Group Joined!</string>
+    <string name="join_group_info">Read a QR code to join a group</string>
+    <string name="menu_label_settings">Settings</string>
+    <string name="menu_label_log_out">Log Out</string>
+    <string name="label_gallery">Gallery</string>
+    <string name="label_take_photo">Take a Picture</string>
+    <string name="label_create_group">Create Group</string>
+    <string name="label_join_group">Join Group</string>
+    <string name="process_picture_general_error">Oops, something went wrong while processing the image</string>
+    <string name="picture_activity_toast_private_image">Image saved to private album</string>
+    <string name="picture_activity_toast_upload_failed">Oops, something went wrong while uploading the image!</string>
+    <string name="label_group_management">Group Management</string>
+
+    <string name="album_by_peopleDetection">Sort By People</string>
+    <string name="album_by_author">Sort By Author</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mangage_no_group_title">You\'re not a member of any active group</string>
+    <string name="manage_no_group_details">Choose an action below to get started.</string>
+    <string name="manage_group_info_title">Active Group</string>
+    <string name="manage_group_expiry">Expires on %1$s %2$s</string>
+    <string name="loading">Loading…</string>
+    <string name="manage_group_add_user_btn">Add User</string>
+    <string name="manage_group_leave_btn">Leave Group</string>
+    <string name="manage_group_members_label">Members</string>
+    <string name="manage_group_delete_btn">Delete Group</string>
+    <string name="leave_group_success">You\'ve left the group</string>
+    <string name="delete_group_success">Group Deleted</string>
+    <string name="processing_image">Processing Image…</string>
+
+    <string name="notification_new_member">%1$s has joined your group.</string>
+    <string name="notification_old_member">%1$s has left your group.</string>
+    <string name="no_images">No Pictures</string>
+    <string name="lbl_private">Private Pictures</string>
+    <string name="label_act_gallery">Your Albums</string>
+    <string name="label_act_album_activity">Photo Album</string>
+    <string name="toast_take_pic_no_group">You need to be a member of a group to take pictures.</string>
+
+    <plurals name="number_of_images">
+        <item quantity="one">%d picture</item>
+        <item quantity="other">%d pictures</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+cron:
+  - description: An hourly cleanup task for expired groups
+    url: /scheduled/cleanup
+    schedule: every 1 hours

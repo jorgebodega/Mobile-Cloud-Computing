@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "377920837156",
+    "firebase_url": "https://mcc-fall-2017-g14.firebaseio.com",
+    "project_id": "mcc-fall-2017-g14",
+    "storage_bucket": "mcc-fall-2017-g14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377920837156:android:56f8741760c68319",
+        "android_client_info": {
+          "package_name": "fi.aalto.narcolepticninjas.shareapicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377920837156-b6oisbo5qpkl8vhfqfoh0c0f7a5nbtt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyjDMn_HjxoLCxVkjebwm6qUAu3j3VOxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
